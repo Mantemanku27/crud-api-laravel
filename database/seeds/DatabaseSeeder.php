@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(BiodataTableSeeder::class);
+        // Call Class Siswa dari file SiswaTableSeeder
         $this->call(SiswaTableSeeder::class);
     }
 }

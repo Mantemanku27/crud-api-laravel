@@ -17,5 +17,5 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
 
-Route::resource('biodatas','BiodataController');
+// Rute API Tabel Siswa
 Route::resource('siswas','SiswaController');
