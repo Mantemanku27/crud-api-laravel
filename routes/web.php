@@ -2,12 +2,12 @@
 
 /*
 |--------------------------------------------------------------------------
-| Web Routes
+| Rute Web.
 |--------------------------------------------------------------------------
 |
-| This file is where you may define all of the routes that are handled
-| by your application. Just tell Laravel the URIs it should respond
-| to using a Closure or controller method. Build something great!
+| File ini adalah tempat anda dapat menentukan semua rute yang ditangani.
+| Dengan aplikasi anda, katakan saja kepada Laravel bahwa URI seharusnya merespon
+| untuk menggunakan metode Closure atau controller. Bangun sesuatu yang hebat!
 |
 */
 

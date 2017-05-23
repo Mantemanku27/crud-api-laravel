@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Defaults
+    | Default otentikasi.
     |--------------------------------------------------------------------------
     |
-    | This option controls the default authentication "guard" and password
-    | reset options for your application. You may change these defaults
-    | as required, but they're a perfect start for most applications.
+    | Opsi ini mengontrol otentikasi "guard" dan password default,
+    | atur ulang pilihan untuk aplikasi anda. Anda dapat mengubah default ini
+    | sesuai kebutuhan, tapi ini awal yang sempurna untuk sebagian besar aplikasi.
     |
     */
 
@@ -20,18 +20,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Authentication Guards
+    | Otentikasi Penjaga.
     |--------------------------------------------------------------------------
     |
-    | Next, you may define every authentication guard for your application.
-    | Of course, a great default configuration has been defined for you
-    | here which uses session storage and the Eloquent user provider.
+    | Selanjutnya, anda dapat menentukan setiap penjaga otentikasi untuk aplikasi anda.
+    | Tentu saja, konfigurasi default yang besar telah ditetapkan untuk anda
+    | di sini yang menggunakan penyimpanan sesi dan penyedia pengguna Eloquent.
     |
-    | All authentication drivers have a user provider. This defines how the
-    | users are actually retrieved out of your database or other storage
-    | mechanisms used by this application to persist your user's data.
+    | Semua driver autentikasi memiliki penyedia pengguna. Ini mendefinisikan bagaimana
+    | pengguna benar-benar diambil dari database anda atau penyimpanan lainnya.
+    | Mekanisme yang digunakan oleh aplikasi ini untuk mempertahankan data pengguna anda.
     |
-    | Supported: "session", "token"
+    | Didukung: "session", "token"
     |
     */
 
@@ -49,18 +49,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | User Providers
+    | Penyedia Informasi.
     |--------------------------------------------------------------------------
     |
-    | All authentication drivers have a user provider. This defines how the
-    | users are actually retrieved out of your database or other storage
-    | mechanisms used by this application to persist your user's data.
+    | Semua driver autentikasi memiliki penyedia pengguna. Ini mendefinisikan bagaimana
+    | pengguna benar-benar diambil dari database anda atau penyimpanan lainnya.
+    | Mekanisme yang digunakan oleh aplikasi ini untuk mempertahankan data pengguna anda.
     |
-    | If you have multiple user tables or models you may configure multiple
-    | sources which represent each model / table. These sources may then
-    | be assigned to any extra authentication guards you have defined.
+    | Jika anda memiliki beberapa tabel pengguna atau model, anda dapat mengkonfigurasi beberapa
+    | sumber yang mewakili setiap model / tabel. Sumber-sumber ini mungkin kemudian
+    | ditugaskan ke penjaga otentikasi tambahan yang telah anda tetapkan.
     |
-    | Supported: "database", "eloquent"
+    | Didukung: "database", "eloquent"
     |
     */
 
@@ -78,16 +78,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Resetting Passwords
+    | Reset kata sandi.
     |--------------------------------------------------------------------------
     |
-    | You may specify multiple password reset configurations if you have more
-    | than one user table or model in the application and you want to have
-    | separate password reset settings based on the specific user types.
+    | Anda dapat menentukan beberapa konfigurasi reset kata sandi jika anda memiliki lebih banyak
+    | dari satu tabel pengguna atau model dalam aplikasi dan anda ingin memiliki
+    | pengaturan reset password terpisah berdasarkan tipe pengguna tertentu.
     |
-    | The expire time is the number of minutes that the reset token should be
-    | considered valid. This security feature keeps tokens short-lived so
-    | they have less time to be guessed. You may change this as needed.
+    | Waktu kedaluwarsa adalah jumlah menit yang harus ditetapkan token reset
+    | dianggap sah. Fitur keamanan ini menyimpan token berumur pendek,
+    | Mereka memiliki sedikit waktu untuk bisa ditebak. Anda bisa mengubah ini sesuai kebutuhan.
     |
     */
 

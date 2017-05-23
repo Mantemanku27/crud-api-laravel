@@ -5,7 +5,8 @@ namespace App\Domain\Entities;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class Siswa
+ * Class Siswa.
+ *
  * @package App\Domain\Entities
  */
 class Siswa extends Model
@@ -16,5 +17,4 @@ class Siswa extends Model
     protected $fillable = [
         'nama', 'sekolah', 'kelas', 'nis', 'jk', 'alamat',
     ];
-
 }

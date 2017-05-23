@@ -4,14 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Session Driver
+    | Sesi Driver Default.
     |--------------------------------------------------------------------------
     |
-    | This option controls the default session "driver" that will be used on
-    | requests. By default, we will use the lightweight native driver but
-    | you may specify any of the other wonderful drivers provided here.
+    | Opsi ini mengontrol sesi default "driver" yang akan digunakan
+    | permintaan. Secara default, kita akan menggunakan driver asli ringan, tapi
+    | anda dapat menentukan driver hebat lainnya yang disediakan di sini.
     |
-    | Supported: "file", "cookie", "database", "apc",
+    | Didukung: "file", "cookie", "database", "apc",
     |            "memcached", "redis", "array"
     |
     */
@@ -20,12 +20,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Lifetime
+    | Seso Lifetime.
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the number of minutes that you wish the session
-    | to be allowed to remain idle before it expires. If you want them
-    | to immediately expire on the browser closing, set that option.
+    | Di sini anda dapat menentukan jumlah menit yang anda inginkan, dalam sesi ini
+    | agar diizinkan untuk tetap siaga sebelum kadaluarsa. Jika anda menginginkannya
+    | untuk segera berakhir pada penutupan browser, atur opsi itu.
     |
     */
 
@@ -35,12 +35,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Encryption
+    | Sesi Enkripsi.
     |--------------------------------------------------------------------------
     |
-    | This option allows you to easily specify that all of your session data
-    | should be encrypted before it is stored. All encryption will be run
-    | automatically by Laravel and you can use the Session like normal.
+    | Pilihan ini memungkinkan anda menentukan dengan mudah semua data, sesi anda
+    | harus dienkripsi sebelum disimpan. Semua enkripsi akan dijalankan
+    | secara otomatis oleh Laravel dan anda bisa menggunakan sesi seperti biasa.
     |
     */
 
@@ -48,12 +48,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session File Location
+    | Sesi Lokasi file.
     |--------------------------------------------------------------------------
     |
-    | When using the native session driver, we need a location where session
-    | files may be stored. A default has been set for you but a different
-    | location may be specified. This is only needed for file sessions.
+    | Saat menggunakan driver sesi asli, kita membutuhkan lokasi di mana sesi
+    | file bisa disimpan Default, dan telah ditetapkan untuk anda. Tapi berbeda
+    | lokasi dapat ditentukan. Ini hanya diperlukan untuk sesi file.
     |
     */
 
@@ -61,12 +61,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Database Connection
+    | Sesi Koneksi Database.
     |--------------------------------------------------------------------------
     |
-    | When using the "database" or "redis" session drivers, you may specify a
-    | connection that should be used to manage these sessions. This should
-    | correspond to a connection in your database configuration options.
+    | Saat menggunakan driver sesi "database" atau "redis", anda dapat menentukan
+    | koneksi yang harus digunakan untuk mengelola sesi ini. Ini harus
+    | sesuai dengan koneksi dalam pilihan konfigurasi database anda.
     |
     */
 
@@ -74,12 +74,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Database Table
+    | Sesi Tabel Database.
     |--------------------------------------------------------------------------
     |
-    | When using the "database" session driver, you may specify the table we
-    | should use to manage the sessions. Of course, a sensible default is
-    | provided for you; however, you are free to change this as needed.
+    | Bila menggunakan driver "database", anda bisa menentukan tabel kita
+    | sebaiknya gunakan untuk mengelola sesi. Tentu saja, default yang masuk akal adalah
+    | disediakan untuk anda; Namun, anda bebas untuk mengubah ini sesuai kebutuhan.
     |
     */
 
@@ -87,12 +87,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cache Store
+    | Sesi Toko Cache.
     |--------------------------------------------------------------------------
     |
-    | When using the "apc" or "memcached" session drivers, you may specify a
-    | cache store that should be used for these sessions. This value must
-    | correspond with one of the application's configured cache stores.
+    | Bila menggunakan driver sesi "apc" atau "memcached", Anda dapat menentukan
+    | toko cache yang harus digunakan untuk sesi ini. Nilai ini harus
+    | sesuai dengan salah satu toko cache yang dikonfigurasi aplikasi.
     |
     */
 
@@ -100,12 +100,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Sweeping Lottery
+    | Sesi Sweeping Lottery.
     |--------------------------------------------------------------------------
     |
-    | Some session drivers must manually sweep their storage location to get
-    | rid of old sessions from storage. Here are the chances that it will
-    | happen on a given request. By default, the odds are 2 out of 100.
+    | Beberapa driver sesi harus secara manual menyapu lokasi penyimpanan mereka untuk dapat
+    | menyingkirkan sesi lama dari penyimpanan. Inilah yang kemungkinan akan terjadi
+    | pada permintaan tertentu secara default, kemungkinannya adalah 2 dari 100.
     |
     */
 
@@ -113,12 +113,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Name
+    | Nama Sesi Cookie.
     |--------------------------------------------------------------------------
     |
-    | Here you may change the name of the cookie used to identify a session
-    | instance by ID. The name specified here will get used every time a
-    | new session cookie is created by the framework for every driver.
+    | Di sini Anda dapat mengubah nama cookie yang digunakan untuk mengidentifikasi sesi,
+    | misalnya dengan ID Nama yang ditentukan, disini akan bisa digunakan setiap saat
+    | cookie sesi baru dibuat oleh kerangka kerja untuk setiap pengemudi.
     |
     */
 
@@ -126,12 +126,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Path
+    | Sesi Cookie Path.
     |--------------------------------------------------------------------------
     |
-    | The session cookie path determines the path for which the cookie will
-    | be regarded as available. Typically, this will be the root path of
-    | your application but you are free to change this when necessary.
+    | Jalur sesi cookie menentukan jalur yang akan digunakan cookie
+    | dianggap tersedia biasanya, ini akan menjadi jalur akar
+    | Aplikasi anda, tapi anda bebas untuk mengubah ini bila diperlukan.
     |
     */
 
@@ -139,12 +139,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Session Cookie Domain
+    | Sesi Cookie Domain.
     |--------------------------------------------------------------------------
     |
-    | Here you may change the domain of the cookie used to identify a session
-    | in your application. This will determine which domains the cookie is
-    | available to in your application. A sensible default has been set.
+    | Di sini Anda dapat mengubah domain cookie yang digunakan untuk mengidentifikasi sesi.
+    | Di aplikasi kamu ini akan menentukan domain cookie mana yang
+    | tersedia di aplikasi default anda yang masuk akal telah ditetapkan.
     |
     */
 
@@ -152,12 +152,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | HTTPS Only Cookies
+    | HTTPS Only Cookies.
     |--------------------------------------------------------------------------
     |
-    | By setting this option to true, session cookies will only be sent back
-    | to the server if the browser has a HTTPS connection. This will keep
-    | the cookie from being sent to you if it can not be done securely.
+    | Dengan menyetel opsi ini ke true, session cookies hanya akan dikirim kembali
+    | ke server jika browser memiliki koneksi HTTPS. Cookies ini akan terus
+    | dikirim ke Anda jika tidak bisa dilakukan dengan aman.
     |
     */
 
@@ -165,12 +165,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | HTTP Access Only
+    | Hanya Akses HTTP.
     |--------------------------------------------------------------------------
     |
-    | Setting this value to true will prevent JavaScript from accessing the
-    | value of the cookie and the cookie will only be accessible through
-    | the HTTP protocol. You are free to modify this option if needed.
+    | Menetapkan nilai ini ke true akan mencegah JavaScript mengakses
+    | nilai cookie, dan cookie hanya dapat diakses melalui
+    | protokol HTTP. Anda bebas memodifikasi pilihan ini jika diperlukan.
     |
     */
 

@@ -4,12 +4,12 @@ use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
-| API Routes
+| Rute API.
 |--------------------------------------------------------------------------
 |
-| Here is where you can register API routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| is assigned the "api" middleware group. Enjoy building your API!
+| Di sinilah Anda bisa mendaftarkan rute API untuk aplikasi anda.
+| Rute ini dimuat oleh RouteServiceProvider dalam grup yang
+| ditugaskan kelompok middleware "api". Nikmati membangun API Anda!
 |
 */
 

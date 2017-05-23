@@ -4,13 +4,13 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Third Party Services
+    | Layanan Pihak Ketiga.
     |--------------------------------------------------------------------------
     |
-    | This file is for storing the credentials for third party services such
-    | as Stripe, Mailgun, SparkPost and others. This file provides a sane
-    | default location for this type of information, allowing packages
-    | to have a conventional place to find your various credentials.
+    | File ini untuk menyimpan kredensial untuk layanan pihak ketiga
+    | seperti Stripe, Mailgun, SparkPost dan lain-lain. File ini menyediakan
+    | lokasi default untuk jenis informasi, memungkinkan paket
+    | untuk memiliki tempat konvensional untuk menemukan berbagai kepercayaan anda.
     |
     */
 

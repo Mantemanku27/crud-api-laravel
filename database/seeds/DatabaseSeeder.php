@@ -5,13 +5,13 @@ use Illuminate\Database\Seeder;
 class DatabaseSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Menjalankan Seeder Database.
      *
      * @return void
      */
     public function run()
     {
-        // Call Class Siswa dari file SiswaTableSeeder
+        // Memanggil Class Siswa dari file SiswaTableSeeder
         $this->call(SiswaTableSeeder::class);
     }
 }

@@ -6,9 +6,9 @@ use App\Domain\Entities\Siswa;
 use App\Domain\Contracts\SiswaInterface;
 use App\Domain\Contracts\Crudable;
 
-
 /**
- * Class SiswaRepository
+ * Class SiswaRepository.
+ *
  * @package App\Domain\Repositories
  */
 class SiswaRepository extends AbstractRepository implements SiswaInterface, Crudable
@@ -20,7 +20,8 @@ class SiswaRepository extends AbstractRepository implements SiswaInterface, Crud
     protected $model;
 
     /**
-     * SiswaRepository constructor.
+     * Konstruktor SiswaRepository.
+     *
      * @param Siswa $siswa
      */
     public function __construct(Siswa $siswa)
@@ -46,7 +47,7 @@ class SiswaRepository extends AbstractRepository implements SiswaInterface, Crud
      */
     public function paginate($limit = 10, $page = 1, array $column = ['*'], $field, $search = '')
     {
-        // query to aql
+        // Query ke sql.
         return parent::paginate($limit, $page, $column, 'nama', $search);
     }
 
@@ -56,7 +57,7 @@ class SiswaRepository extends AbstractRepository implements SiswaInterface, Crud
      */
     public function create(array $data)
     {
-        // execute sql insert
+        // Eksekusi memasukan sql.
         return parent::create([
             'nama'    => e($data['nama']),
             'sekolah'    => e($data['sekolah']),
@@ -65,7 +66,6 @@ class SiswaRepository extends AbstractRepository implements SiswaInterface, Crud
             'jk'   => e($data['jk']),
             'alamat'   => e($data['alamat'])
         ]);
-
     }
 
     /**

@@ -5,14 +5,14 @@ namespace App\Http\Requests\Siswa;
 use App\Http\Requests\Request;
 
 /**
- * Class UserCreateRequest
+ * Class UserCreateRequest.
  *
  * @package App\Http\Requests\User
  */
 class SiswaCreateRequest extends Request
 {
     /**
-     * Determine if the user is authorized to make this request.
+     * Menentukan apakah pengguna diberi wewenang untuk mengajukan permintaan ini.
      *
      * @return bool
      */
@@ -22,7 +22,7 @@ class SiswaCreateRequest extends Request
     }
 
     /**
-     * Declaration an attributes
+     * Mendeklarasi sebuah atribut.
      *
      * @var array
      */
@@ -36,7 +36,7 @@ class SiswaCreateRequest extends Request
     ];
 
     /**
-     * Get the validation rules that apply to the request.
+     * Mendapatkan aturan validasi yang sesuai dengan permintaan.
      *
      * @return array
      */

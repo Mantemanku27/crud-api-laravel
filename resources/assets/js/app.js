@@ -1,16 +1,15 @@
-
 /**
- * First we will load all of this project's JavaScript dependencies which
- * include Vue and Vue Resource. This gives a great starting point for
- * building robust, powerful web applications using Vue and Laravel.
+ * Pertama kita akan memuat semua dependensi JavaScript proyek ini
+ * termasuk Vue dan Vue Resource. Ini memberi titik awal yang bagus untuk
+ * membangun aplikasi web yang kuat menggunakan Vue dan Laravel.
  */
 
 require('./bootstrap');
 
 /**
- * Next, we will create a fresh Vue application instance and attach it to
- * the body of the page. From here, you may begin adding components to
- * the application, or feel free to tweak this setup for your needs.
+ * Selanjutnya, kita akan membuat contoh aplikasi Vue segar dan melampirkannya
+ * Bagian tubuh halaman Dari sini, Anda mungkin mulai menambahkan komponen ke
+ * Aplikasi, atau merasa bebas untuk men-tweak pengaturan ini untuk kebutuhan anda.
  */
 
 Vue.component('example', require('./components/Example.vue'));

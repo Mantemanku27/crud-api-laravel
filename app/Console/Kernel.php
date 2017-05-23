@@ -8,7 +8,7 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 class Kernel extends ConsoleKernel
 {
     /**
-     * The Artisan commands provided by your application.
+     * Perintah Artisan yang disediakan oleh aplikasi anda.
      *
      * @var array
      */
@@ -17,7 +17,7 @@ class Kernel extends ConsoleKernel
     ];
 
     /**
-     * Define the application's command schedule.
+     * Menentukan jadwal perintah aplikasi.
      *
      * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
      * @return void
@@ -29,7 +29,7 @@ class Kernel extends ConsoleKernel
     }
 
     /**
-     * Register the Closure based commands for the application.
+     * Daftar perintah berdasarkan penutupan untuk aplikasi.
      *
      * @return void
      */
@@ -37,4 +37,5 @@ class Kernel extends ConsoleKernel
     {
         require base_path('routes/console.php');
     }
+
 }

@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class AppServiceProvider extends ServiceProvider
 {
     /**
-     * Bootstrap any application services.
+     * Bootstrap layanan aplikasi apapun.
      *
      * @return void
      */
@@ -17,15 +17,16 @@ class AppServiceProvider extends ServiceProvider
     }
 
     /**
-     * Register any application services.
+     * Daftar layanan aplikasi apa saja.
      *
      * @return void
      */
     public function register()
     {
-        // Services Siswa 
+        // Servis Siswa 
         $this->app->when('App\Http\Controllers\SiswaController')
             ->needs('App\Domain\Contracts\SiswaInterface')
             ->give('App\Domain\Repositories\SiswaRepository');
     }
+
 }

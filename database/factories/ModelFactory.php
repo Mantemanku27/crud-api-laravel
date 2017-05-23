@@ -2,12 +2,12 @@
 
 /*
 |--------------------------------------------------------------------------
-| Model Factories
+| Model Factories.
 |--------------------------------------------------------------------------
 |
-| Here you may define all of your model factories. Model factories give
-| you a convenient way to create models for testing and seeding your
-| database. Just tell the factory how a default model should look.
+| Di sini anda bisa menentukan semua model factories anda. Model factories memberi
+| anda cara mudah membuat model, untuk pengujian dan Seeder
+| Database. Katakan saja pada factories bagaimana model default seharusnya terlihat.
 |
 */
 

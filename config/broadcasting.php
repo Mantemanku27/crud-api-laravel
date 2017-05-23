@@ -4,14 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Broadcaster
+    | Penyiar standar.
     |--------------------------------------------------------------------------
     |
-    | This option controls the default broadcaster that will be used by the
-    | framework when an event needs to be broadcast. You may set this to
-    | any of the connections defined in the "connections" array below.
+    | Opsi ini mengontrol penyiar default yang akan digunakan oleh
+    | kerangka kerja saat suatu event perlu disiarkan. Anda bisa mengatur ini
+    | salah satu koneksi yang didefinisikan dalam array "koneksi" di bawah ini.
     |
-    | Supported: "pusher", "redis", "log", "null"
+    | didukung: "pusher", "redis", "log", "null"
     |
     */
 
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Broadcast Connections
+    | Koneksi Siaran.
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the broadcast connections that will be used
-    | to broadcast events to other systems or over websockets. Samples of
-    | each available type of connection are provided inside this array.
+    | Di sini anda bisa menentukan semua koneksi broadcast yang akan digunakan
+    | untuk menyiarkan event ke sistem lain atau melalui jaring. Sampel dari
+    | setiap jenis koneksi yang tersedia disediakan di dalam array ini.
     |
     */
 

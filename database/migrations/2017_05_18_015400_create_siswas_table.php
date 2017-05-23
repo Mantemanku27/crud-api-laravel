@@ -7,7 +7,7 @@ use Illuminate\Database\Migrations\Migration;
 class CreateSiswasTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Menjalankan Migrations.
      *
      * @return void
      */
@@ -26,7 +26,7 @@ class CreateSiswasTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Mengembalikan Migrations.
      *
      * @return void
      */
@@ -34,4 +34,5 @@ class CreateSiswasTable extends Migration
     {
         Schema::drop('siswas');
     }
+
 }

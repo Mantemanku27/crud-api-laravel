@@ -8,28 +8,27 @@ use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvi
 class RouteServiceProvider extends ServiceProvider
 {
     /**
-     * This namespace is applied to your controller routes.
+     * Ruang nama ini diterapkan ke rute pengendali anda.
      *
-     * In addition, it is set as the URL generator's root namespace.
+     * Selain itu, ini ditetapkan sebagai root namespace root URL.
      *
      * @var string
      */
     protected $namespace = 'App\Http\Controllers';
 
     /**
-     * Define your route model bindings, pattern filters, etc.
+     * Menentukan bindings model rute anda, filter pola, dll.
      *
      * @return void
      */
     public function boot()
     {
         //
-
         parent::boot();
     }
 
     /**
-     * Define the routes for the application.
+     * Menentukan rute untuk aplikasi.
      *
      * @return void
      */
@@ -43,9 +42,9 @@ class RouteServiceProvider extends ServiceProvider
     }
 
     /**
-     * Define the "web" routes for the application.
+     * Menentukan rute "web" untuk aplikasi.
      *
-     * These routes all receive session state, CSRF protection, etc.
+     * Rute ini semuanya menerima status sesi, perlindungan CSRF, dll.
      *
      * @return void
      */
@@ -60,9 +59,9 @@ class RouteServiceProvider extends ServiceProvider
     }
 
     /**
-     * Define the "api" routes for the application.
+     * Menentukan rute "api" untuk aplikasi.
      *
-     * These routes are typically stateless.
+     * Rute ini biasanya tanpa kewarganegaraan.
      *
      * @return void
      */
@@ -76,4 +75,5 @@ class RouteServiceProvider extends ServiceProvider
             require base_path('routes/api.php');
         });
     }
+
 }

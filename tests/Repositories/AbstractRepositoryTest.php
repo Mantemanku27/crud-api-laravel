@@ -90,7 +90,7 @@ class AbstractRepositoryTest extends TestCase
             ->andReturn(true);
 
         $this->assertTrue( $this->repositoryFake->likeSearch('key', 'value') );
-        $this->assertTrue( $this->repositoryFake->paginate(10, 1, ['*'], 'key') ); // Can call the likeSearch function (?)
+        $this->assertTrue( $this->repositoryFake->paginate(10, 1, ['*'], 'key') ); // Bisa memanggil fungsi likeSearch (?)
     }
 
     public function testCreate()
@@ -192,7 +192,7 @@ class AbstractRepositoryTest extends TestCase
         $response = $this->repositoryFake->delete(1);
 
         $this->assertInstanceOf(Illuminate\Http\JsonResponse::class, $response);
-        $this->assertEquals(200, $response->getStatusCode()); // Delete Fail is 200 Status Code (?)
+        $this->assertEquals(200, $response->getStatusCode()); // Hapus Gagal adalah 200 Kode Status (?)
         $this->assertFalse(json_decode($response->getContent())->deleted);
     }
 
@@ -204,4 +204,5 @@ class AbstractRepositoryTest extends TestCase
 
         $this->assertInstanceOf(stdClass::class, $this->repositoryFake->instance());
     }
+
 }

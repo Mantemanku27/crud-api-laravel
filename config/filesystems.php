@@ -4,14 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Filesystem Disk
+    | Disk Filesystem Default.
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default filesystem disk that should be used
-    | by the framework. A "local" driver, as well as a variety of cloud
-    | based drivers are available for your choosing. Just store away!
+    | Di sini anda dapat menentukan disk sistem berkas default yang harus digunakan
+    | dengan kerangka kerja. Sopir "lokal", serta beragam awan
+    | driver berbasis tersedia untuk anda pilih. Simpan saja!
     |
-    | Supported: "local", "ftp", "s3", "rackspace"
+    | didukung: "local", "ftp", "s3", "rackspace"
     |
     */
 
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cloud Filesystem Disk
+    | Default Cloud Filesystem Disk.
     |--------------------------------------------------------------------------
     |
-    | Many applications store files both locally and in the cloud. For this
-    | reason, you may specify a default "cloud" driver here. This driver
-    | will be bound as the Cloud disk implementation in the container.
+    | Banyak aplikasi menyimpan file baik lokal maupun di awan. Untuk ini,
+    | alasannya Anda bisa menentukan driver "cloud" default di sini. Pengemudi ini
+    | akan terikat sebagai implementasi cloud disk dalam wadah.
     |
     */
 
@@ -32,12 +32,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Filesystem Disks
+    | Disk Filesystem.
     |--------------------------------------------------------------------------
     |
-    | Here you may configure as many filesystem "disks" as you wish, and you
-    | may even configure multiple disks of the same driver. Defaults have
-    | been setup for each driver as an example of the required options.
+    | Di sini anda dapat mengkonfigurasi sebanyak mungkin filesystem "disk" yang anda inginkan, dan anda
+    | bahkan mungkin mengkonfigurasi beberapa disk dari driver yang sama. Default telah
+    | punya dan disetel untuk setiap pengemudi sebagai contoh opsi yang diperlukan.
     |
     */
 

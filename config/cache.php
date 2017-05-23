@@ -4,14 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Cache Store
+    | Toko Cache Default.
     |--------------------------------------------------------------------------
     |
-    | This option controls the default cache connection that gets used while
-    | using this caching library. This connection is used when another is
-    | not explicitly specified when executing a given caching function.
+    | Opsi ini mengontrol koneksi cache standar yang akan digunakan. Sementara
+    | menggunakan perpustakaan caching ini dan sambungan ini digunakan saat yang lain
+    | tidak secara eksplisit ditentukan saat menjalankan fungsi caching yang diberikan.
     |
-    | Supported: "apc", "array", "database", "file", "memcached", "redis"
+    | didukung: "apc", "array", "database", "file", "memcached", "redis"
     |
     */
 
@@ -19,12 +19,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Stores
+    | Toko Cache.
     |--------------------------------------------------------------------------
     |
-    | Here you may define all of the cache "stores" for your application as
-    | well as their drivers. You may even define multiple stores for the
-    | same cache driver to group types of items stored in your caches.
+    | Di sini anda bisa mendefinisikan semua cache "store" untuk aplikasi anda
+    | Juga driver mereka bahkan dapat menentukan beberapa toko untuk
+    | driver cache yang sama untuk mengelompokkan jenis item yang tersimpan di cache anda.
     |
     */
 
@@ -77,12 +77,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Cache Key Prefix
+    | Awalan Kunci Cache.
     |--------------------------------------------------------------------------
     |
-    | When utilizing a RAM based store such as APC or Memcached, there might
-    | be other applications utilizing the same cache. So, we'll specify a
-    | value to get prefixed to all our keys so we can avoid collisions.
+    | Saat menggunakan toko berbasis RAM seperti APC atau Memcached, mungkin ada
+    | jadilah aplikasi lain yang memanfaatkan cache yang sama. Jadi, kita akan menentukan
+    | nilai untuk mendapatkan awalan untuk semua kunci kita sehingga kita dapat menghindari konflik.
     |
     */
 

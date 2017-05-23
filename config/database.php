@@ -4,12 +4,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | PDO Fetch Style
+    | PDO Ambil Gaya.
     |--------------------------------------------------------------------------
     |
-    | By default, database results will be returned as instances of the PHP
-    | stdClass object; however, you may desire to retrieve records in an
-    | array format for simplicity. Here you can tweak the fetch style.
+    | Secara default, hasil database akan dikembalikan sebagai contoh dari PHP
+    | objek stdClass; Namun, Anda mungkin ingin mengambil catatan di
+    | format array untuk kesederhanaan. Di sini anda bisa men-tweak gaya pengambilan.
     |
     */
 
@@ -17,12 +17,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Default Database Connection Name
+    | Nama Koneksi Basis Data Default.
     |--------------------------------------------------------------------------
     |
-    | Here you may specify which of the database connections below you wish
-    | to use as your default connection for all database work. Of course
-    | you may use many connections at once using the Database library.
+    | Di sini anda bisa menentukan koneksi database mana yang anda inginkan
+    | untuk digunakan sebagai koneksi default anda untuk semua pekerjaan database. Tentu saja
+    | anda mungkin menggunakan banyak koneksi sekaligus menggunakan pustaka Database.
     |
     */
 
@@ -30,17 +30,16 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Database Connections
+    | Koneksi Database.
     |--------------------------------------------------------------------------
     |
-    | Here are each of the database connections setup for your application.
-    | Of course, examples of configuring each database platform that is
-    | supported by Laravel is shown below to make development simple.
+    | Berikut adalah konfigurasi database untuk aplikasi anda.
+    | Tentu saja, contoh mengonfigurasi setiap platform database itu
+    | didukung oleh Laravel, ditunjukkan di bawah ini untuk membuat pengembangan menjadi sederhana.
     |
-    |
-    | All database work in Laravel is done through the PHP PDO facilities
-    | so make sure you have the driver for your particular database of
-    | choice installed on your machine before you begin development.
+    | Semua pekerjaan database di Laravel dilakukan melalui fasilitas PDO PHP,
+    | jadi pastikan anda memiliki driver untuk database khusus anda.
+    | Pilihan terinstal di komputer anda sebelum memulai pembangunan.
     |
     */
 
@@ -83,12 +82,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Migration Repository Table
+    | Tabel Repositori Migration.
     |--------------------------------------------------------------------------
     |
-    | This table keeps track of all the migrations that have already run for
-    | your application. Using this information, we can determine which of
-    | the migrations on disk haven't actually been run in the database.
+    | Tabel ini melacak semua migration yang telah dijalankan
+    | aplikasi anda dengan menggunakan informasi ini kita bisa menentukan mana dari
+    | migration pada disk belum benar-benar dijalankan dalam database.
     |
     */
 
@@ -96,12 +95,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Redis Databases
+    | Redis Databases.
     |--------------------------------------------------------------------------
     |
-    | Redis is an open source, fast, and advanced key-value store that also
-    | provides a richer set of commands than a typical key-value systems
-    | such as APC or Memcached. Laravel makes it easy to dig right in.
+    | Redis adalah open source, fast, dan advanced key-value store yang juga
+    | menyediakan seperangkat perintah yang lebih kaya daripada sistem nilai-kunci yang khas
+    | seperti APC atau Memcached. Laravel membuatnya mudah digali.
     |
     */
 

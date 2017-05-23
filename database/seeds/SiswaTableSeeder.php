@@ -5,13 +5,13 @@ use Illuminate\Database\Seeder;
 class SiswaTableSeeder extends Seeder
 {
     /**
-     * Run the database seeds.
+     * Menjalankan Seeder Database.
      *
      * @return void
      */
     public function run()
     {
-        // truncate record
+        // Catatan truncate
         DB::table('siswas')->truncate();
 
         $siswas = [

@@ -3,7 +3,8 @@
 namespace App\Domain\Contracts;
 
 /**
- * Interface SiswaInterface
+ * Antarmuka SiswaInterface.
+ *
  * @package App\Domain\Contracts
  */
 interface SiswaInterface {

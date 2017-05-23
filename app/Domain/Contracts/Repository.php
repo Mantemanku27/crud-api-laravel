@@ -3,7 +3,8 @@
 namespace App\Domain\Contracts;
 
 /**
- * Interface Repository
+ * Antarmuka Repository.
+ *
  * @package App\Domain\Contracts
  */
 interface Repository

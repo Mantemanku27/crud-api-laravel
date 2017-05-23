@@ -4,13 +4,13 @@ define('LARAVEL_START', microtime(true));
 
 /*
 |--------------------------------------------------------------------------
-| Register The Composer Auto Loader
+| Daftar Komposer Auto Loader.
 |--------------------------------------------------------------------------
 |
-| Composer provides a convenient, automatically generated class loader
-| for our application. We just need to utilize it! We'll require it
-| into the script here so that we do not have to worry about the
-| loading of any our classes "manually". Feels great to relax.
+| Komposer menyediakan Class loader yang mudah dibuat secara otomatis
+| untuk aplikasi kita. Kita hanya perlu memanfaatkannya! Kita akan membutuhkannya
+| ke script disini agar kita tidak perlu khawatir dengan
+| pemuatan Class kita "secara manual". Merasa senang bisa bersantai.
 |
 */
 
@@ -18,12 +18,12 @@ require __DIR__.'/../vendor/autoload.php';
 
 /*
 |--------------------------------------------------------------------------
-| Include The Compiled Class File
+| Sertakan File Class Terkompilasi.
 |--------------------------------------------------------------------------
 |
-| To dramatically increase your application's performance, you may use a
-| compiled class file which contains all of the classes commonly used
-| by a request. The Artisan "optimize" is used to create this file.
+| Untuk meningkatkan kinerja aplikasi anda secara dramatis, anda dapat menggunakan
+| file Class terkompilasi yang berisi semua Class yang umum digunakan
+| dengan permintaan artisan "optimalkan" digunakan untuk membuat file ini.
 |
 */
 

@@ -1,28 +1,27 @@
-
 window._ = require('lodash');
 
 /**
- * We'll load jQuery and the Bootstrap jQuery plugin which provides support
- * for JavaScript based Bootstrap features such as modals and tabs. This
- * code may be modified to fit the specific needs of your application.
+ * Kami akan memuat jQuery dan plugin jQuery Bootstrap yang memberikan dukungan
+ * untuk fitur Bootstrap berbasis JavaScript, seperti modals dan tabs.
+ * Kode ini dapat dimodifikasi agar sesuai dengan kebutuhan spesifik aplikasi anda.
  */
 
 window.$ = window.jQuery = require('jquery');
 require('bootstrap-sass');
 
 /**
- * Vue is a modern JavaScript library for building interactive web interfaces
- * using reactive data binding and reusable components. Vue's API is clean
- * and simple, leaving you to focus on building your next great project.
+ * Vue adalah perpustakaan JavaScript modern untuk membangun antarmuka web interaktif
+ * menggunakan komponen pengikat data reaktif dan reusable. API Vue bersih
+ * dan sederhana, membuat anda fokus untuk membangun proyek besar berikutnya.
  */
 
 window.Vue = require('vue');
 require('vue-resource');
 
 /**
- * We'll register a HTTP interceptor to attach the "CSRF" header to each of
- * the outgoing requests issued by this application. The CSRF middleware
- * included with Laravel will automatically verify the header's value.
+ * Kami akan mendaftarkan pencegat HTTP untuk melampirkan header "CSRF" ke masing-masing
+ * permintaan keluar yang dikeluarkan oleh aplikasi ini. Middleware CSRF
+ * disertakan dengan Laravel secara otomatis akan memverifikasi nilai header.
  */
 
 Vue.http.interceptors.push((request, next) => {
@@ -32,9 +31,9 @@ Vue.http.interceptors.push((request, next) => {
 });
 
 /**
- * Echo exposes an expressive API for subscribing to channels and listening
- * for events that are broadcast by Laravel. Echo and event broadcasting
- * allows your team to easily build robust real-time web applications.
+ * Echo mengekspos API ekspresif untuk berlangganan saluran dan mendengarkan,
+ * untuk event yang disiarkan oleh Laravel. Echo dan acara penyiaran yang
+ * memungkinkan tim anda untuk dengan mudah membangun aplikasi web real-time yang kuat.
  */
 
 // import Echo from "laravel-echo"

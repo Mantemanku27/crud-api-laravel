@@ -3,14 +3,14 @@
 abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
     /**
-     * The base URL to use while testing the application.
+     * URL dasar yang digunakan saat menguji aplikasi.
      *
      * @var string
      */
     protected $baseUrl = 'http://localhost';
 
     /**
-     * Creates the application.
+     * Membuat aplikasi.
      *
      * @return \Illuminate\Foundation\Application
      */
@@ -22,4 +22,5 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
 
         return $app;
     }
+
 }

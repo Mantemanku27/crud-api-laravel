@@ -4,14 +4,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Mail Driver
+    | Pengandar Email.
     |--------------------------------------------------------------------------
     |
-    | Laravel supports both SMTP and PHP's "mail" function as drivers for the
-    | sending of e-mail. You may specify which one you're using throughout
-    | your application here. By default, Laravel is setup for SMTP mail.
+    | Laravel mendukung fungsi "mail" SMTP dan PHP sebagai driver untuk
+    | Pengiriman e-mail. Anda dapat menentukan yang mana yang anda gunakan selama ini
+    | Aplikasi anda disini Secara default, Laravel disiapkan untuk email SMTP.
     |
-    | Supported: "smtp", "mail", "sendmail", "mailgun", "mandrill",
+    | didukung: "smtp", "mail", "sendmail", "mailgun", "mandrill",
     |            "ses", "sparkpost", "log"
     |
     */
@@ -20,12 +20,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Host Address
+    | Alamat host SMTP.
     |--------------------------------------------------------------------------
     |
-    | Here you may provide the host address of the SMTP server used by your
-    | applications. A default option is provided that is compatible with
-    | the Mailgun mail service which will provide reliable deliveries.
+    | Di sini anda bisa memberikan alamat host dari server SMTP yang digunakan oleh aplikasi
+    | anda. Pilihan default disediakan yang kompatibel dengan
+    | mailgun. Mail layanan yang akan memberikan pengiriman yang dapat diandalkan.
     |
     */
 
@@ -33,12 +33,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Host Port
+    | Port Host SMTP.
     |--------------------------------------------------------------------------
     |
-    | This is the SMTP port used by your application to deliver e-mails to
-    | users of the application. Like the host we have set this value to
-    | stay compatible with the Mailgun e-mail application by default.
+    | Ini adalah port SMTP yang digunakan oleh aplikasi anda untuk mengirim e-mail ke
+    | Pengguna aplikasi Seperti tuan rumah kami telah menetapkan nilai ini
+    | tetap kompatibel dengan aplikasi e-mail Mailgun secara default.
     |
     */
 
@@ -46,12 +46,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Global "From" Address
+    | Global "Dari" Alamat.
     |--------------------------------------------------------------------------
     |
-    | You may wish for all e-mails sent by your application to be sent from
-    | the same address. Here, you may specify a name and address that is
-    | used globally for all e-mails that are sent by your application.
+    | Anda mungkin menginginkan semua e-mail yang dikirim oleh aplikasi anda untuk dikirim
+    | alamat yang sama di sini, anda bisa menentukan nama dan alamat yang
+    | digunakan secara global untuk semua e-mail yang dikirim oleh aplikasi anda.
     |
     */
 
@@ -62,12 +62,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | E-Mail Encryption Protocol
+    | Protokol Enkripsi E-Mail.
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the encryption protocol that should be used when
-    | the application send e-mail messages. A sensible default using the
-    | transport layer security protocol should provide great security.
+    | Di sini anda bisa menentukan protokol enkripsi yang harus digunakan, apabila
+    | aplikasi mengirim pesan e-mail default yang masuk akal menggunakan
+    | protokol keamanan lapisan transport harus memberikan keamanan yang besar.
     |
     */
 
@@ -75,12 +75,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Server Username
+    | Username SMTP Server.
     |--------------------------------------------------------------------------
     |
-    | If your SMTP server requires a username for authentication, you should
-    | set it here. This will get used to authenticate with your server on
-    | connection. You may also set the "password" value below this one.
+    | Jika server SMTP anda memerlukan nama pengguna untuk otentikasi, anda harus
+    | mengatur di sini. Ini akan digunakan untuk mengotentikasi dengan server
+    | koneksi anda. Anda juga dapat mengatur nilai "kata sandi" di bawah ini.
     |
     */
 
@@ -88,12 +88,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | SMTP Server Password
+    | Password Server SMTP.
     |--------------------------------------------------------------------------
     |
-    | Here you may set the password required by your SMTP server to send out
-    | messages from your application. This will be given to the server on
-    | connection so that the application will be able to send messages.
+    | Di sini anda dapat mengatur kata sandi yang diminta oleh server SMTP anda untuk dikirim
+    | pesan dari aplikasi anda Ini akan diberikan ke server
+    | koneksi sehingga aplikasi akan bisa mengirim pesan.
     |
     */
 
@@ -101,12 +101,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Sendmail System Path
+    | Jalur Sistem Sendmail.
     |--------------------------------------------------------------------------
     |
-    | When using the "sendmail" driver to send e-mails, we will need to know
-    | the path to where Sendmail lives on this server. A default path has
-    | been provided here, which will work well on most of your systems.
+    | Saat menggunakan driver "sendmail" untuk mengirim e-mail, kita perlu tahu
+    | jalan menuju tempat Sendmail yang tinggal di server ini. Jalur default telah
+    | disediakan di sini, yang akan bekerja dengan baik pada sebagian besar sistem anda.
     |
     */
 

@@ -4,24 +4,24 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Name
+    | Nama aplikasi.
     |--------------------------------------------------------------------------
     |
-    | This value is the name of your application. This value is used when the
-    | framework needs to place the application's name in a notification or
-    | any other location as required by the application or its packages.
+    | Nilai ini adalah nama aplikasi anda. Nilai ini digunakan saat
+    | kerangka perlu menempatkan nama aplikasi dalam notifikasi atau
+    | lokasi lain seperti yang dipersyaratkan oleh aplikasi atau paketnya.
     */
 
     'name' => 'Laravel',
 
     /*
     |--------------------------------------------------------------------------
-    | Application Environment
+    | Lingkungan aplikasi.
     |--------------------------------------------------------------------------
     |
-    | This value determines the "environment" your application is currently
-    | running in. This may determine how you prefer to configure various
-    | services your application utilizes. Set this in your ".env" file.
+    | Nilai ini menentukan "lingkungan" aplikasi anda saat ini
+    | berjalan masuk. Ini mungkin menentukan bagaimana anda memilih untuk mengkonfigurasi berbagai
+    | layanan yang digunakan aplikasi anda. Atur ini di file ".env" anda.
     |
     */
 
@@ -29,12 +29,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Debug Mode
+    | Aplikasi Debug Mode.
     |--------------------------------------------------------------------------
     |
-    | When your application is in debug mode, detailed error messages with
-    | stack traces will be shown on every error that occurs within your
-    | application. If disabled, a simple generic error page is shown.
+    | Bila aplikasi anda dalam mode debug, pesan kesalahan terperinci dengan
+    | jejak. Jejak akan ditunjukkan pada setiap kesalahan yang terjadi di dalam aplikasi anda.
+    | Jika dinonaktifkan, halaman kesalahan generik sederhana ditampilkan.
     |
     */
 
@@ -42,12 +42,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application URL
+    | URL aplikasi.
     |--------------------------------------------------------------------------
     |
-    | This URL is used by the console to properly generate URLs when using
-    | the Artisan command line tool. You should set this to the root of
-    | your application so that it is used when running Artisan tasks.
+    | URL ini digunakan oleh Console untuk menghasilkan URL dengan benar saat menggunakan
+    | alat baris perintah Artisan. Anda harus mengatur ini ke akar
+    | aplikasi anda sehingga digunakan saat menjalankan tugas Artisan.
     |
     */
 
@@ -55,12 +55,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Timezone
+    | Aplikasi Timezone.
     |--------------------------------------------------------------------------
     |
-    | Here you may specify the default timezone for your application, which
-    | will be used by the PHP date and date-time functions. We have gone
-    | ahead and set this to a sensible default for you out of the box.
+    | Di sini anda dapat menentukan zona waktu default untuk aplikasi anda, yang mana
+    | akan digunakan oleh tanggal PHP dan fungsi tanggal-waktu. Kami telah pergi
+    | ke depan dan set ke default yang masuk akal untuk anda di luar kotak.
     |
     */
 
@@ -68,12 +68,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Locale Configuration
+    | Konfigurasi Lokal Aplikasi.
     |--------------------------------------------------------------------------
     |
-    | The application locale determines the default locale that will be used
-    | by the translation service provider. You are free to set this value
-    | to any of the locales which will be supported by the application.
+    | Lokal aplikasi menentukan lokal default yang akan digunakan
+    | oleh penyedia layanan terjemahan. Anda bebas menentukan nilai ini
+    | ke salah satu locales yang akan didukung oleh aplikasi.
     |
     */
 
@@ -81,12 +81,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Application Fallback Locale
+    |  Aplikasi Fallback Locale.
     |--------------------------------------------------------------------------
     |
-    | The fallback locale determines the locale to use when the current one
-    | is not available. You may change the value to correspond to any of
-    | the language folders that are provided through your application.
+    | Lokal fallback menentukan lokal untuk digunakan saat yang sekarang
+    | tidak tersedia. Anda dapat mengubah nilainya agar sesuai dengan salah satu
+    | folder bahasa yang disediakan melalui aplikasi anda.
     |
     */
 
@@ -94,12 +94,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Encryption Key
+    | Kunci enkripsi.
     |--------------------------------------------------------------------------
     |
-    | This key is used by the Illuminate encrypter service and should be set
-    | to a random, 32 character string, otherwise these encrypted strings
-    | will not be safe. Please do this before deploying an application!
+    | Kunci ini digunakan oleh layanan encoding Illuminate dan harus diset
+    | ke string acak, 32 karakter, jika tidak, string terenkripsi ini
+    | tidak akan aman Silakan lakukan ini sebelum menerapkan aplikasi!
     |
     */
 
@@ -109,14 +109,14 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Logging Configuration
+    | Konfigurasi Logging.
     |--------------------------------------------------------------------------
     |
-    | Here you may configure the log settings for your application. Out of
-    | the box, Laravel uses the Monolog PHP logging library. This gives
-    | you a variety of powerful log handlers / formatters to utilize.
+    | Di sini anda dapat mengkonfigurasi pengaturan log untuk aplikasi anda. Dari
+    | kotaknya, Laravel menggunakan perpustakaan logging Monolog PHP. Ini memberi
+    | anda berbagai penangan log kuat / formatters untuk memanfaatkan.
     |
-    | Available Settings: "single", "daily", "syslog", "errorlog"
+    | Pengaturan yang tersedia: "single", "daily", "syslog", "errorlog"
     |
     */
 
@@ -126,12 +126,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Autoloaded Service Providers
+    | Penyedia layanan otomatis.
     |--------------------------------------------------------------------------
     |
-    | The service providers listed here will be automatically loaded on the
-    | request to your application. Feel free to add your own services to
-    | this array to grant expanded functionality to your applications.
+    | Penyedia layanan yang tercantum di sini akan dimuat secara otomatis di
+    | Permintaan untuk aplikasi anda Jangan ragu untuk menambahkan layanan Anda sendiri
+    | Array ini untuk memberikan fungsionalitas diperluas ke aplikasi Anda.
     |
     */
 
@@ -164,13 +164,13 @@ return [
         Illuminate\View\ViewServiceProvider::class,
 
         /*
-         * Package Service Providers...
+         * Penyedia Layanan Paket ...
          */
 
         //
 
         /*
-         * Application Service Providers...
+         * Penyedia Layanan Aplikasi ...
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
@@ -182,12 +182,12 @@ return [
 
     /*
     |--------------------------------------------------------------------------
-    | Class Aliases
+    | Class Aliases.
     |--------------------------------------------------------------------------
     |
-    | This array of class aliases will be registered when this application
-    | is started. However, feel free to register as many as you wish as
-    | the aliases are "lazy" loaded so they don't hinder performance.
+    | Kumpulan Class alias ini akan didaftarkan saat aplikasi ini
+    | dimulai. Namun, jangan ragu untuk mendaftar sebanyak yang anda mau
+    | alias ​​"malas" dimuat sehingga tidak mengganggu performa.
     |
     */
 

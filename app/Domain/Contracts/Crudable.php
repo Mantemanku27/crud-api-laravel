@@ -3,7 +3,8 @@
 namespace App\Domain\Contracts;
 
 /**
- * Interface Crudable
+ * Antarmuka Crudable.
+ *
  * @package App\Domain\Contracts
  */
 interface Crudable

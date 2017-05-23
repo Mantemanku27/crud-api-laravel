@@ -16,7 +16,8 @@ class SiswaController extends Controller
     protected $siswa;
 
     /**
-     * SiswaController constructor.
+     * Konstruktor SiswaController.
+     *
      * @param SiswaInterface $siswa
      */
     public function __construct(SiswaInterface $siswa)

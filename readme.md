@@ -1,4 +1,4 @@
-# CRUD Laravel 5.3 dengan Repository Pattern
+# CRUD Api Laravel 5.3
 
 An example of a basic implementation of the Repository Pattern in Laravel 5.3
 
@@ -75,5 +75,3 @@ http-server
 ```
 
 > Please open the following url `localhost:8080`
-
-
